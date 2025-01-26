@@ -14,4 +14,6 @@ RUN pip install torchvision --index-url https://download.pytorch.org/whl/cpu
 
 RUN pip install --no-cache-dir pandas numpy flask flask_cors opencv-python pillow
 
+RUN pip install --upgrade numpy
+
 CMD ["make", "run"]
