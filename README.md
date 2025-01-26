@@ -1,8 +1,9 @@
-# Font System Transfer
+# Font Style Transfer
 
 ## Introduction
 
-Font System Transfer is a project aimed at transferring font styles from one text to another using machine learning techniques. The goal is to create a system that can take an input text and apply a desired font style to it, making it look as if it was originally written in that style. This project leverages deep learning models to understand and replicate various font characteristics, providing a seamless and automated font style transfer solution.
+Font Style Transfer is a project that allows users to transfer the style of one font to another.  This is achieved using a deep learning model trained on a large dataset of fonts.  The user can upload image then the model predict the text in the image, and rewrite it to desired font.
+(This is just a demo, it will be upgraded using cGANs)
 
 ## Prerequisites
 
